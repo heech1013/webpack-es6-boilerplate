@@ -1,5 +1,14 @@
 import React from 'react'
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
-const App = () => <h1>test :) :/</h1>
+import Sample from '@/pages/Sample'
+
+const App = () => (
+  <Router>
+    <Switch>
+        <Route path="/" component={Sample} />
+    </Switch>
+  </Router>
+)
 
 export default App
