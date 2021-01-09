@@ -1,0 +1,35 @@
+{
+  "name": "groover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heech1013/groover.git"
+  },
+  "keywords": [],
+  "author": "Aiden Shin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heech1013/groover/issues"
+  },
+  "homepage": "https://github.com/heech1013/groover#readme",
+  "dependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.12.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.1"
+  }
+}
