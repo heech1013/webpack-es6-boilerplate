@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
-const Sample = () => (
-    <h1>Sample Page</h1>
-)
+const Sample = () => <h1>Sample Page</h1>;
 
-export default Sample
+export default Sample;
