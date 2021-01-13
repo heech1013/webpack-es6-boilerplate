@@ -1,5 +1,5 @@
 {
-  "name": "groover",
+  "name": "hippang",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heech1013/groover.git"
+    "url": "git+https://github.com/heech1013/hippang.git"
   },
   "keywords": [],
   "author": "Aiden Shin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heech1013/groover/issues"
+    "url": "https://github.com/heech1013/hippang/issues"
   },
-  "homepage": "https://github.com/heech1013/groover#readme",
+  "homepage": "https://github.com/heech1013/hippang#readme",
   "dependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
@@ -32,23 +32,23 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
+    "@babel/plugin-syntax-jsx": "^7.12.1",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
     "@typescript-eslint/eslint-plugin": "^4.12.0",
     "@typescript-eslint/parser": "^4.12.0",
     "babel-loader": "^8.2.2",
-    "babel-plugin-module-resolver": "^4.1.0",
+    "css-loader": "^5.0.1",
     "eslint": "^7.17.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^7.1.0",
-    "eslint-import-resolver-babel-module": "^5.2.0",
-    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "2.2.1",
+    "style-loader": "^2.0.0",
     "ts-loader": "^8.0.14",
     "typescript": "^4.1.3",
     "webpack": "^5.12.1",

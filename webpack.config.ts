@@ -9,7 +9,6 @@ module.exports = {
   },
   devtool: "source-map",
   resolve: {
-    // alias: { "@": path.resolve(__dirname, "src") },
     extensions: [".ts", ".tsx", ".js"],
     modules: ["node_modules"],
   },
@@ -17,10 +16,16 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        loader: "ts-loader",
+        /** loader executed sequentially from end of array.
+         * ts-loader should executed first, then babel-loader.
+         */
         use: ["babel-loader", "ts-loader"],
         include: /src/,
         exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
       },
     ],
   },

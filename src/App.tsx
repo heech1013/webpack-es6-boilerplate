@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
-import Sample from "pages/Sample";
+import Matching from "./pages/Matching";
 
 const App = () => (
   <Router>
     <Switch>
-      <Route path="/" component={Sample} />
+      <Route path="/" component={Matching} />
     </Switch>
   </Router>
 );
