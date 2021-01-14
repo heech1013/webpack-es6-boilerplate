@@ -1,5 +1,6 @@
 import React from "react";
+import Header from "../components/Header";
 
-const Matching = () => <h1>Matching Page</h1>;
+const Matching = () => <Header />;
 
 export default Matching;

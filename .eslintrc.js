@@ -24,6 +24,7 @@ module.exports = {
     "@typescript-eslint",
     "prettier",
     "jsx-a11y",
+    "import",
   ],
   rules: {
     /** "note you must disable the base rule as it can report incorrect errors" */
@@ -34,7 +35,8 @@ module.exports = {
       { extensions: [".js", ".jsx", ".ts", ".tsx"] },
     ],
     /** prevent eslint error: "Missing file extension "tsx" for ...
-     * airbnb ESLint config leads the problem.
+     * it throw error if imported file has extension(.js, .jsx, ...).
+     * airbnb ESLint has config about throwing error if js, jsx, ts, tsx file don't have extension.
      */
     "import/extensions": [
       "error",
@@ -48,7 +50,7 @@ module.exports = {
     },
     "import/resolver": {
       node: {
-        extensions: [".js", ".jsx", ".ts", ".tsx"],
+        extensions: [".js", ".jsx", ".ts", ".tsx", ".scss"],
         moduleDirectory: ["node_modules", "src/"],
       },
     },
