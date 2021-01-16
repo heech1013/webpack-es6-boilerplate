@@ -9,7 +9,9 @@ module.exports = {
   },
   devtool: "source-map",
   resolve: {
+    /** enable to resolve file without extension. */
     extensions: [".ts", ".tsx", ".js"],
+    /** search modules from beginning of array. */
     modules: ["./src", "node_modules"],
   },
   module: {

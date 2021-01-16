@@ -1,6 +1,10 @@
 import React from "react";
-import "../scss/Header.scss";
+import classNames from "classnames/bind";
 
-const Header = () => <h1>header</h1>;
+import styles from "../scss/Header.module.scss";
+
+const cx = classNames.bind(styles);
+
+const Header = () => <div className={cx("container")}>Header</div>;
 
 export default Header;
