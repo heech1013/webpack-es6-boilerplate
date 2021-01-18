@@ -1,7 +1,7 @@
 import React from "react";
 import className from "classnames/bind";
 
-import style from "../scss/Text.module.scss";
+import style from "./mobileDefault.module.scss";
 
 const cx = className.bind(style);
 
