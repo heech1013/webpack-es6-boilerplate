@@ -1,5 +1,5 @@
 {
-  "name": "hippang",
+  "name": "webpack-es6-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heech1013/hippang.git"
+    "url": "git+https://github.com/heech1013/webpack-es6-boilerplate.git"
   },
   "keywords": [],
-  "author": "Aiden Shin",
+  "author": "Heechang Shin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heech1013/hippang/issues"
+    "url": "https://github.com/heech1013/webpack-es6-boilerplate/issues"
   },
-  "homepage": "https://github.com/heech1013/hippang#readme",
+  "homepage": "https://github.com/heech1013/webpack-es6-boilerplate#readme",
   "dependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
@@ -29,11 +29,7 @@
     "copy-webpack-plugin": "^7.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0",
-    "react-slick": "^0.28.0",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.1",
-    "slick-carousel": "^1.8.1"
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
