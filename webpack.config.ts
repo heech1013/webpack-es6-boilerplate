@@ -1,12 +1,11 @@
-const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
   entry: "./src/index.tsx",
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "main.js",
+    path: "./dist",
+    filename: "bundle.js",
   },
   devtool: "source-map",
   resolve: {

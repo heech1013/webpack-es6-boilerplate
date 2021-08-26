@@ -1,15 +1,15 @@
 # Webpack ES6 Boilerplate
 
-Minimal webpack boilerplate with -
+Webpack boilerplate with -
 
 - React
 - TypeScript
-- Sass
+- Sass(SCSS)
 - Babel
 - ESLint
 - webpack-dev-server
 
-## Quick start
+## Quick Start
 
 ### Installation
 
