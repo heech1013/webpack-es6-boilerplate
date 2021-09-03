@@ -1,5 +1,3 @@
-const CopyPlugin = require("copy-webpack-plugin");
-
 module.exports = {
   mode: "development",
   entry: "./src/index.tsx",
@@ -34,11 +32,6 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new CopyPlugin({
-      patterns: [{ from: "src/assets", to: "" }],
-    }),
-  ],
   devServer: {
     contentBase: "./",
     publicPath: "/dist",
